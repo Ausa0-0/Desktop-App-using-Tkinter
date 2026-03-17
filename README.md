@@ -78,27 +78,12 @@ py my_book_app.py
 }
 ```
 
-## ความต้องการระบบ
-
-- Python 3.7+
-- Flask 3.1.2
-- Flask-CORS 6.0.2
-- Tkinter (มีมาพร้อมกับ Python)
-
 ## วิธีการทำงานของโปรแกรม
 
 1. เปิด API Server เพื่อให้บริการข้อมูลหนังสือ
 2. เปิด Desktop App ที่จะเชื่อมต่อไปยัง API
 3. คลิกปุ่ม "Load Books" เพื่อดึงข้อมูลหนังสือจาก API
 4. หนังสือจะแสดงผลในรูปแบบ Cards ในหน้าต่าง
-
-## ปัญหาทั่วไปและการแก้ไข
-
-| ปัญหา | สาเหตุ | แนวทางแก้ไข |
-|------|--------|-----------|
-| "API not running" | API Server ไม่ได้เปิดทำงาน | ตรวจสอบว่ารันไฟล์ `book.py` แล้ว |
-| Connection timeout | Firewall บล็อก port 5001 | ตรวจสอบการตั้งค่า Firewall |
-| Module not found | ยังไม่ติดตั้ง dependencies | รันคำสั่ง `pip install -r requirements.txt` |
 
 ## ภาพหน้าจอผลลัพธ์
 
