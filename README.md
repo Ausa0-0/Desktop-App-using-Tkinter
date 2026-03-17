@@ -51,9 +51,7 @@ py my_book_app.py
   - ผู้แต่ง
   - รูปภาพปก
   - ราคา (แสดงเป็นหลัก THB)
-- **Load Button** - ปุ่มสำหรับดึงข้อมูลจาก API
-- **Status Display** - แสดงสถานะการโหลดและจำนวนหนังสือ
-- **Error Handling** - การแจ้งเตือนเมื่อ API ไม่พร้อมใช้งาน
+
 
 ### Backend (Book API)
 - **CRUD Operations** - สนับสนุน Create, Read, Update, Delete
